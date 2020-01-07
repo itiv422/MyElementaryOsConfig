@@ -7,9 +7,11 @@ curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo apt-add-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"
 
-sudo apt -y install mc remmina gcc g++ make gnupg2 curl dirmngr apt-transport-https lsb-release ca-certificates snapd deluge elementary-tweaks nodejs docker-ce
+sudo apt -y install gcc g++ make gnupg2 curl dirmngr apt-transport-https lsb-release ca-certificates snapd deluge elementary-tweaks
 
-sudo snap install vlc violin-player krita postman chromium libreoffice youtube-dl ffmpeg
+sudo apt -y install remmina nodejs docker-ce
+
+sudo snap install chromium libreoffice vlc postman krita violin-player p7zip-desktop youtube-dl ffmpeg 
 sudo snap install code --classic
 sudo snap install skype --classic
 

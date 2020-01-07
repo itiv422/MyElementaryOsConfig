@@ -1,5 +1,5 @@
 run
 ```
-chmod 755 software
-./software
+chmod 755 software.sh
+./software.sh
 ```
